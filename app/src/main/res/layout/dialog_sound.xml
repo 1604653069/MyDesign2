@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#009688"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="音量设置"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+   <SeekBar
+       android:id="@+id/seekBar"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#009688"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="背景音乐"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/turn_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开"
+                 />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/turn_off"
+                android:text="关"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/dialog_sureBtn"
+            android:text="确定"
+            android:textColor="#fff"
+            android:background="@drawable/dialog_btn_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

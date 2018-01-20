@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/tv_ai_mode"
+        android:text="人机对战"
+        android:background="#1E88E5"
+        android:layout_width="100dp"
+        android:layout_height="55dp"/>
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/tv_coupe_mode"
+        android:text="双人模式"
+        android:background="#1E88E5"
+        android:layout_width="100dp"
+        android:layout_height="55dp"/>
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/tv_wifi_mode"
+        android:text="WIFI对战"
+        android:background="#1E88E5"
+        android:layout_width="100dp"
+        android:layout_height="55dp"/>
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/tv_blue_tooth_mode"
+        android:text="蓝牙对战"
+        android:background="#1E88E5"
+        android:layout_width="100dp"
+        android:layout_height="55dp"/>
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/tv_sound"
+        android:text="音量设置"
+        android:background="#1E88E5"
+        android:layout_width="100dp"
+        android:layout_height="55dp"/>
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/tv_screen"
+        android:text="录屏设置"
+        android:background="#1E88E5"
+        android:layout_width="100dp"
+        android:layout_height="55dp"/>
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/tv_history"
+        android:text="对战记录"
+        android:background="#1E88E5"
+        android:layout_width="100dp"
+        android:layout_height="55dp"/>
+</LinearLayout>
